@@ -1,0 +1,10 @@
+node_modules
+
+# Local Netlify folder
+.netlify
+
+# Generated at build time
+resoc-templates/templates-list.json
+
+out
+types

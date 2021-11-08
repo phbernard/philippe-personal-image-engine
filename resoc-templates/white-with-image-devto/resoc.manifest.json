@@ -1,0 +1,19 @@
+
+{
+  "partials": {
+    "content": "./content.html.mustache",
+    "styles": "./styles.css.mustache"
+  },
+  "parameters": [
+    {
+      "name": "title",
+      "type": "text",
+      "demoValue": "A picture is worth a thousand words"
+    },
+    {
+      "name": "sideImage",
+      "type": "imageUrl",
+      "demoValue": "https://resoc.io/assets/img/demo/photos/pexels-photo-371589.jpeg"
+    }
+  ]
+}

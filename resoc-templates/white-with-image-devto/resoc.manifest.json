@@ -11,7 +11,7 @@
       "demoValue": "A picture is worth a thousand words"
     },
     {
-      "name": "sideImage",
+      "name": "mainImageUrl",
       "type": "imageUrl",
       "demoValue": "https://resoc.io/assets/img/demo/photos/pexels-photo-371589.jpeg"
     }

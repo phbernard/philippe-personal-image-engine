@@ -50,15 +50,15 @@ h2 {
 .name {
   flex: 1;
 }
-{{#sideImage}}
+{{#mainImageUrl}}
 .sideImage {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: url({{{ sideImage }}});
+  background-image: url({{{ mainImageUrl }}});
   background-repeat: no-repeat;
   background-size: auto 150vh;
   background-position: -35vw 0vh;
   -webkit-mask-image: linear-gradient(45deg, rgba(0,0,0,0.5), transparent 40%);
 }
-{{/sideImage}}
+{{/mainImageUrl}}

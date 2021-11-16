@@ -1,0 +1,19 @@
+
+{
+  "partials": {
+    "content": "./content.html.mustache",
+    "styles": "./styles.css.mustache"
+  },
+  "parameters": [
+    {
+      "name": "caption",
+      "type": "text",
+      "demoValue": "What I did today as part of the #100DaysOfCode Challenge"
+    },
+    {
+      "name": "day",
+      "type": "number",
+      "demoValue": "42"
+    }
+  ]
+}

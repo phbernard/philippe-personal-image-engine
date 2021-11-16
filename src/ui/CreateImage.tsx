@@ -28,7 +28,7 @@ const CreateImage = (props: CreateImageProps) => {
     props.template.parameters,
     props.values
   );
-  const cmdGet = `curl -o my-image.${props.format} ${baseUrl}${imageGetPath}`;
+  const cmdGet = `curl -o my-image.${props.format} '${baseUrl}${imageGetPath}'`;
 
   const imagePostPath = imageUrl(
     props.name,

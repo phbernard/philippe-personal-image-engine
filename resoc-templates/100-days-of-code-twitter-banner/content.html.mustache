@@ -1,0 +1,24 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+
+<div class="wrapper">
+  <h1 id="title">
+    Working on Resoc while doing the #100DaysOfCode Challenge
+  </h1>
+  <div class="challenge-progress">
+    <div class="caption">
+      <span>
+        #100DaysOfCode Challenge
+      </span>
+      <span>
+        Day {{ day }}
+      </span>
+    </div>
+    <div class="progress">
+      {{#activity}}
+        <div class="daily-activity {{ status }}"></div>
+      {{/activity}}
+    </div>
+  </div>
+</div>

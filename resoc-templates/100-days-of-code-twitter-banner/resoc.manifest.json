@@ -1,0 +1,64 @@
+{
+  "imageSpecs": {
+    "destination": "TwitterBanner"
+  },
+  "partials": {
+    "content": "./content.html.mustache",
+    "styles": "./styles.css.mustache"
+  },
+  "parameters": [
+    {
+      "name": "day",
+      "type": "number",
+      "demoValue": "42"
+    },
+    {
+      "name": "activity",
+      "type": "objectList",
+      "demoValue": [
+        { "status": "completed" },
+        { "status": "missed" },
+        { "status": "completed" },
+        { "status": "completed" },
+        { "status": "completed" },
+        { "status": "completed" },
+        { "status": "completed" },
+        { "status": "completed" },
+        { "status": "completed" },
+        { "status": "completed" },
+        { "status": "completed" },
+        { "status": "missed" },
+        { "status": "completed" },
+        { "status": "completed" },
+        { "status": "completed" },
+        { "status": "completed" },
+        { "status": "completed" },
+        { "status": "completed" },
+        { "status": "completed" },
+        { "status": "completed" },
+        { "status": "completed" },
+        { "status": "missed" },
+        { "status": "completed" },
+        { "status": "completed" },
+        { "status": "completed" },
+        { "status": "completed" },
+        { "status": "completed" },
+        { "status": "completed" },
+        { "status": "completed" },
+        { "status": "completed" },
+        { "status": "completed" },
+        { "status": "missed" },
+        { "status": "completed" },
+        { "status": "completed" },
+        { "status": "completed" },
+        { "status": "completed" },
+        { "status": "completed" },
+        { "status": "completed" },
+        { "status": "completed" },
+        { "status": "completed" },
+        { "status": "completed" },
+        { "status": "completed" }
+      ]
+    }
+  ]
+}
